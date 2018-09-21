@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080;
 let userRouter = express.Router()
 
 userRouter.get('*', (req, res) => {
-	res.status(200).json({hello: 'Andy, How are you?'})
+	res.status(200).json({hello: 'Yahoo!! Today is the day'})
 });
 
 app.use(userRouter)
